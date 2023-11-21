@@ -28,7 +28,7 @@
 /* col */
 
 .col-1{
-    width: calc((100% / 12) 1);
+    width: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
 }
 .col-2{
@@ -79,7 +79,7 @@
 /* col-margin */
 
 .col-space-1{
-    margin-left: calc((100% / 12) 1);
+    margin-left: calc((100% / 12) * 1);
 }
 .col-space-2{
     margin-left: calc((100% / 12) * 2);
@@ -175,7 +175,7 @@
         width: calc((100% / 12) * 11);
         max-width: calc((100% / 12) * 11);
     }
-    .co-sm-12{
+    .col-sm-12{
         width: 100%;
         max-width: calc((100% / 12) * 12);
     }
@@ -274,7 +274,7 @@
         width: calc((100% / 12) * 11);
         max-width: calc((100% / 12) * 11);
     }
-    .co-md-12{
+    .col-md-12{
         width: 100%;
         max-width: calc((100% / 12) * 12);
     }
@@ -369,7 +369,7 @@
         width: calc((100% / 12) * 11);
         max-width: calc((100% / 12) * 11);
     }
-    .co-lg-12{
+    .col-lg-12{
         width: 100%;
         max-width: calc((100% / 12) * 12);
     }

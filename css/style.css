@@ -8,6 +8,37 @@
     box-sizing: border-box;
 }
 
-/* 
-    GENERAL
-*/
+/* MAIN */
+.box{
+    color: white;
+    
+    text-align: center;
+}
+.blue{
+    background-color: blue;
+    border: dashed 1px white;
+    padding: 20px 20px;
+}
+.green{
+    background-color: green;
+    border: solid 1px black;
+    padding: 10px 0;
+    margin-left: 2px;
+}
+.top{
+    padding: 10px;
+}
+.middle{
+    padding: 10px;
+    margin: 20px 0;
+}
+.end{
+    padding: 10px;
+    margin-top:40px;
+}
+.around{
+    justify-content: space-around;
+}
+.between{
+    justify-content: space-between;
+}
